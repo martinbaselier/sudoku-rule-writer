@@ -1,2 +1,3 @@
 # sudoku-rule-writer
-Create rules for to paste in sudokupad and german logic masters. 
+The rule-writer contains the most common rules for standard variation sudoku.
+This way you can pick the rules you want, copy them and paste them in your prefered creation tool. 
