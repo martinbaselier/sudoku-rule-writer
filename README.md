@@ -5,3 +5,6 @@ Just add your rules to rules.js and they should appear. It should be pretty much
 
 The source-package contains all files you'll need and can be used directly in your browser. It has been tested with firefox and chromium. 
 
+It looks like this: 
+![preview](preview/preview.png?raw=true "Prievew")
+
