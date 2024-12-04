@@ -77,7 +77,7 @@ adds all rules to html and hide them standardly.
 
     ip.attr("id",rule.id).attr("class","btn-check").attr("type","checkbox").attr("checked",rule.checked).change(buttonPress).attr("aria-label","Basic checkbox toggle button group")
     ip.attr("data-variation","0")
-    bt.attr("for",rule.id).text(rule.title).attr("class","btn btn-primary pl-0 justify-left")
+    bt.attr("for",rule.id).text(rule.symbol+" "+rule.title).attr("class","btn btn-primary pl-0 justify-left")
 
     menuItems.attr("class","dropdown-menu").attr("aria-labelledby",btId)
     badge.attr("class","badge bg-info rounded-pill")

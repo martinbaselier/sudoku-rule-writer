@@ -67,6 +67,16 @@ ruleset={
         "html" : "<li>Along a<i style=\"background-color:peachPuff;padding:0 0.5ch;margin:0 0.5ch;\">peach</i><b>entropic line</b> any set of three sequential cells must contain a <i>low</i> {1,2,3}, <i>middle</i> {4,5,6}, and <i>high</i> {7,8,9} digit.</li>"
       }]
     },{
+      "id"    : "fog",
+      "title" : "fog of war",
+      "scope" : "global",
+			"symbol": "🌫️",
+      "order" : "1",
+      "descriptions" : [{
+        "text" : "Part of the grid is covered with 𝗳𝗼𝗴. As correct digits are placed, the fog will clear from cells surrounding the digit. No guessing required. ",
+        "html" : "<li>Part of the grid is covered with <b>fog</b>. As correct digits are placed, the fog will clear from cells surrounding the digit. No guessing required.</li>"
+      }]
+    },{
       "id"    : "german",
       "title" : "german whispers",
       "scope" : "lines",
