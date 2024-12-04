@@ -28,11 +28,11 @@ ruleset={
 			"symbol": "⟶",
       "order" :"1",
       "descriptions" : [{
-        "title": "circles",
+        "title": "circ",
         "text" : "Digits on the tip of an 𝗮𝗿𝗿𝗼𝘄 sum to the number in the circle.",
         "html" : "<li>Digits on the tip of an <b>arrow</b> sum to the number in the circle.</li>"
       },{
-        "title": "pills",
+        "title": "pill",
         "text" : "Digits on the tip of an 𝗮𝗿𝗿𝗼𝘄 sum to the number in the circle or pill. Pills are read in normal reading order. 𝘪.𝘦. 𝘧𝘳𝘰𝘮 𝘭𝘦𝘧𝘵 𝘵𝘰 𝘳𝘪𝘨𝘩𝘵 𝘢𝘯𝘥 𝘵𝘰𝘱 𝘵𝘰 𝘣𝘰𝘵𝘵𝘰𝘮.",
         "html" : "<li>Digits on the tip of an <b>arrow</b> sum to the number in the circle or Pill. Pills are read in normal reading order.<i>i.e. from left to right and top to bottom.</i></li>"
       }]
@@ -118,7 +118,7 @@ ruleset={
       }]
     },{
       "id"    : "killer",
-      "title" : "killer cages",
+      "title" : "killercage",
       "scope" : "other",
 			"symbol": "⬚",
       "order" : "1",
@@ -127,7 +127,7 @@ ruleset={
         "text" : "Digits in a 𝗸𝗶𝗹𝗹𝗲𝗿 𝗰𝗮𝗴𝗲 sum to the given total.",
         "html" : "<li>Digits in a <b>killer cage</b> sum to the given total.</li>"
       },{
-        "title": "medium",
+        "title": "med",
         "text" : "Digits in a 𝗸𝗶𝗹𝗹𝗲𝗿 𝗰𝗮𝗴𝗲 do not repeat and sum to the given total.",
         "html" : "<li>Digits in a <b>killer cage</b> do not repeat and sum to the given total.</li>"
       },{
@@ -137,7 +137,7 @@ ruleset={
       }]
     },{
       "id"    : "black",
-      "title" : "kropki (black)",
+      "title" : "kropki⚫",
       "scope" : "neighbours",
 			"symbol": "•",
       "order" : "1",
@@ -146,17 +146,17 @@ ruleset={
         "text" : "Digits separated by a 𝗯𝗹𝗮𝗰𝗸 kropki 𝗱𝗼𝘁 have a 1:2 ratio.",
         "html" : "<li>Digits separated by a <b>black</b> kropki <b>dot</b> have a 1:2  ratio.</li>"
       },{
-        "title" : "numbers",
+        "title" : "nr",
         "text" : "Digits separated by a 𝗯𝗹𝗮𝗰𝗸 kropki 𝗱𝗼𝘁 are in 1:x ratio, where x is the given number.",
         "html" : "<li>Digits separated by a <b>black</b> kropki <b>dot</b> are in 1:x ratio, where x is the given number.</li>"
       },{
-        "title" : "complete",
+        "title" : "all",
         "text" : "Digits separated by a 𝗯𝗹𝗮𝗰𝗸 kropki 𝗱𝗼𝘁 are in 1:2 ratio. All dots are given.",
         "html" : "<li>Digits separated by a <b>black</b> kropki <b>dot</b> are in 1:2 ratio. All dots are given.</li>"
       }]
     },{
       "id"    : "white",
-      "title" : "kropki (white)",
+      "title" : "kropki⚪",
       "scope" : "neighbours",
 			"symbol": "◦",
       "order" : "1",
@@ -165,11 +165,11 @@ ruleset={
         "text" : "Digits separated by a 𝘄𝗵𝗶𝘁𝗲 kropki 𝗱𝗼𝘁 are consecutive.",
         "html" : "<li>Digits separated by a <b>white</b> kropki <b>dot</b> are consecutive.</li>"
       },{
-        "title" : "numbers",
+        "title" : "nr",
         "text" : "Digits separated by a 𝘄𝗵𝗶𝘁𝗲 kropki 𝗱𝗼𝘁 differ by the given number.",
         "html" : "<li>Digits separated by a <b>white</b> kropki <b>dot</b> differ by the given number.</li>"
       },{
-        "title" : "complete",
+        "title" : "all",
         "text" : "Digits separated by a 𝘄𝗵𝗶𝘁𝗲 kropki 𝗱𝗼𝘁 are consecutive. All dots are given.",
         "html" : "<li>Digits separated by a <b>white</b> kropki <b>dot</b> are consecutive.</li>"
       }]
@@ -227,7 +227,7 @@ ruleset={
       "id"    : "renban",
       "title" : "renban",
       "scope" : "lines",
-			"symbol": "🟣",
+			"symbol": "🦩",
       "order" : "1",
       "descriptions" : [{
         "text" : "Digits on a purple 𝗿𝗲𝗻𝗯𝗮𝗻 line form a set of distinct consecutive digits.",
@@ -260,12 +260,12 @@ ruleset={
       }]
     },{
       "id"    : "thermometer",
-      "title" : "thermometer",
+      "title" : "thermo",
       "scope" : "other",
 			"symbol": "🌡",
       "order" : "1",
       "descriptions" : [{
-        "title" : "normal",
+        "title" : "norm",
         "text" : "Digits on a 𝘁𝗵𝗲𝗿𝗺𝗼𝗺𝗲𝘁𝗲𝗿 increase from bulb to tip. ",
         "html" : "<li>On a <b>thermometer</b> digits increase from bulb to tip.</li>"
       },{

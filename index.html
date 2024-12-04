@@ -12,42 +12,17 @@
     <script type="text/javascript" src="main.js"></script>
   </head>
   <body onload="init();">
-    <div class="row">
-      <div class="col-1"></div>
-      <div class="col-10">
+    <div class="row mx-1 my-4">
+      <div class="col-12">
         <div class="row" id="interface">
           <div class="col-5">
             <div class="row">
-              <div class="col-4">
-                <div class="row">&nbsp;</div>
-                <div class="row">
-                  <div class="col d-grid gap-2" id="main" role="group" aria-label="Basic checkbox toggle button group"></div>
-                </div>
-                <div class="row">&nbsp;</div>
-                <div class="row">
-                  <div class="col d-grid gap-2" id="global" role="group" aria-label="global"></div>
-                </div>
-                <div class="row">&nbsp;</div>
-                <div class="row">
-                  <div class="col d-grid gap-2" id="other" role="group" aria-label="other"></div>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="row">&nbsp;</div>
-                <div class="row">
-                  <div class="coll d-grid gap-2" id="outside" role="group" aria-label="outside"></div>
-                </div>
-                <div class="row">&nbsp;</div>
-                <div class="row">
-                  <div class="col d-grid gap-2" id="neighbours" role="group" aria-label="neighbours"></div>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="row">&nbsp;</div>
-                <div class="row">
-                  <div class="coll d-grid gap-2" id="lines" role="group" aria-label="lines"></div>
-                </div>
-              </div>
+                <div class="col d-none" id="main"></div>
+                <div class="col d-none" id="global"></div>
+                <div class="col d-none" id="other"></div>
+                <div class="col d-none" id="outside"></div>
+                <div class="col d-none" id="neighbours"></div>
+                <div class="col d-none" id="lines"></div>
             </div>
             <div class="form-floating mb-3 mt-2">
               <input type="text" class="form-control" id="image" placeholder="" onchange="update()" title="Put the imagename from German Logic Masters here.">
@@ -57,11 +32,10 @@
               <input type="text" class="form-control" id="link" placeholder="https://" onchange="update()"  title="Put your sudokupad-link here.">
               <div style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;" data-lastpass-icon-root=""></div><label for="link">link</label>
             </div>
-            <div class="row">&nbsp;</div>
-            <div class="row">
+            <div class="row mt-3">
               <div class="card border-primary" style="max-width: 100%;">
                 <div class="card-header position-relative">
-                  <button class="source-button btn btn-primary btn-xs position-absolute top-50 end-0 translate-middle-y" type="button" title="copy to clipboard" tabindex="0" onclick="copyText('sudokupad');"><i class="bi bi-code">copy</i></button>
+                  <button class="source-button btn btn-primary position-absolute top-50 end-0 translate-middle-y" type="button" title="copy to clipboard" tabindex="0" onclick="copyText('sudokupad');"><i class="bi bi-code">copy</i></button>
                   sudokupad
                 </div>
                 <div class="card-body" id="sudokupad">
@@ -71,7 +45,6 @@
             </div>
           </div>
           <div class="col-7">
-            <div class="row">&nbsp;</div>
             <div class="card border-primary" style="max-width: 100%;">
               <div class="card-header">preview</div>
               <div class="card-body" id="preview"></div>
@@ -79,7 +52,7 @@
             <div class="row">&nbsp;</div>
             <div class="card border-primary" style="max-width: 100%;">
               <div class="card-header position-relative">german logic masters
-                <button class="source-button btn btn-primary btn-xs position-absolute top-50 end-0 translate-middle-y" type="button"  title="copy to clipboard" tabindex="0" onclick="copyText('glcode');"><i class="bi bi-code">copy</i></button>
+                <button class="source-button btn btn-primary position-absolute top-50 end-0 translate-middle-y" type="button"  title="copy to clipboard" tabindex="0" onclick="copyText('glcode');"><i class="bi bi-code">copy</i></button>
               </div>
               <div class="card-body" id="glcode">
                 <pre>

@@ -59,7 +59,7 @@ $("#preview").append(footer)
 adds all rules to html and hide them standardly.
 */
 
-
+    let btc=$("<div/>") //button container -> column.
     let ip=$("<input/>")  //checkbox (for the buttons)
     let bt=$("<label/>")  //visual aspect of button
     let sym=$("<span/>")  //symbol (at the top there's a list of symbols)
@@ -77,7 +77,8 @@ adds all rules to html and hide them standardly.
 
     ip.attr("id",rule.id).attr("class","btn-check").attr("type","checkbox").attr("checked",rule.checked).change(buttonPress).attr("aria-label","Basic checkbox toggle button group")
     ip.attr("data-variation","0")
-    bt.attr("for",rule.id).text(rule.symbol+" "+rule.title).attr("class","btn btn-primary pl-0 justify-left")
+    bt.attr("for",rule.id).text(rule.symbol+" "+rule.title).attr("class","btn btn-primary text-start col")
+    btc.attr("class","col-3 py-1 px-1 d-grid gap-1")
 
     menuItems.attr("class","dropdown-menu").attr("aria-labelledby",btId)
     badge.attr("class","badge bg-info rounded-pill")
@@ -117,11 +118,13 @@ adds all rules to html and hide them standardly.
 
       btVarGrp.append(toggleDropdown).append(menuItems)
       btGroup.append(ip).append(bt).append(btVarGrp)
-      $("#"+rule.scope).append(btGroup)
+      btc.append(btGroup)
     } else {
-      $("#"+rule.scope).append(ip).append(bt)
+      bt.addClass("")
+      btc.append(ip).append(bt)
     }
 
+    $("#"+rule.scope).after(btc)
 
     $("#symbols"+rule.scope).append(sym)
   }
