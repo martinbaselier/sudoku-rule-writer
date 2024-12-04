@@ -1,6 +1,7 @@
 # sudoku-rule-writer
-The rule-writer contains the most common rules for standard variation sudoku.
-This way you can pick the rules you want, copy them and paste them in your prefered creation tool. 
+The rule-writer contains most common rules for variation sudoku. It was created to make the task of writing rules easier for myself. Because of that it mainly contains the rules I use most. I will probably extend this in the future and add more rules. Feel free to modify it and adapt it for your own use. 
 
-You can just download the "source"-package. 
-It's a bit of an "hacky" approach, but it works fine. 
+Just add your rules to rules.js and they should appear. It should be pretty much self-explanatory.
+
+The source-package contains all files you'll need and can be used directly in your browser. It has been tested with firefox and chromium. 
+
