@@ -236,7 +236,6 @@ ruleset={
     },{
       "id"    : "sudoku",
       "title" : "sudoku",
-      "checked" : "",
       "scope" : "main",
 			"symbol": "",
       "order" : "0",

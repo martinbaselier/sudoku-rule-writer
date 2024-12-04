@@ -73,7 +73,7 @@ adds all rules to html and hide them standardly.
     let menuItems=$("<div/>")//alternative options
     let btId="dd"+rule.id//id for dropdown
 
-    if (rule.checked=="") {checked=""}
+    //if (rule.checked=="") {checked=""}
 
     ip.attr("id",rule.id).attr("class","btn-check").attr("type","checkbox").attr("checked",rule.checked).change(buttonPress).attr("aria-label","Basic checkbox toggle button group")
     ip.attr("data-variation","0")
@@ -125,6 +125,7 @@ adds all rules to html and hide them standardly.
 
     $("#symbols"+rule.scope).append(sym)
   }
+  $("#sudoku").click()
   update()
 }
 
