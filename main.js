@@ -126,7 +126,7 @@ adds all rules to html and hide them standardly.
 
     $("#"+rule.scope).after(btc)
 
-    $("#symbols"+rule.scope).append(sym)
+    //$("#symbols"+rule.scope).append(sym)
   }
   $("#sudoku").click()
   update()

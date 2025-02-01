@@ -37,6 +37,16 @@ ruleset={
         "html" : "<li>Digits on the tip of an <b>arrow</b> sum to the number in the circle or Pill. Pills are read in normal reading order.<i>i.e. from left to right and top to bottom.</i></li>"
       }]
     },{
+      "id"    : "circles",
+      "title" : "counting circles",
+      "scope" : "other",
+      "symbol": "○",
+      "order" : "1",
+      "descriptions" : [{
+        "text" : "Digits in a 𝗰𝗼𝘂𝗻𝘁𝗶𝗻𝗴 𝗰𝗶𝗿𝗰𝗹𝗲 indicates exactly how many circles contain that digit.",
+        "html" : "<li>Digits in a <b>counting circle</b> indicates exactly how many circles contain that digit.</li>"
+      }]
+    },{
       "id"    : "diagonal",
       "title" : "diagonal",
       "scope" : "outside",
@@ -45,6 +55,16 @@ ruleset={
       "descriptions" : [{
         "text" : "Digits do not repeat on a 𝗯𝗹𝘂𝗲 𝗱𝗶𝗮𝗴𝗼𝗻𝗮𝗹 line.",
         "html" : "<li>Digits do not repeat on a <b>blue diagonal</b> line.</li>"
+      }]
+    },{
+      "id"    : "double",
+      "title" : "double arrow",
+      "scope" : "other",
+      "symbol": "⟷",
+      "order" : "1",
+      "descriptions" : [{
+        "text" : "Digits on a 𝗱𝗼𝘂𝗯𝗹𝗲 𝗮𝗿𝗿𝗼𝘄 sum to the same number as the digits in the circles.",
+        "html" : "<li>Digits on a <b>double arrow</b> sum to the same number as the digits in the circles.</li>"
       }]
     },{
       "id"    : "dutch",
@@ -244,6 +264,16 @@ ruleset={
         "html" : "<li>Box borders divide <i style=\"background-color:lightblue;padding:0 0.5ch;margin:0 0.5ch;\">blue</i> <b>region sum lines</b> into segments with the same sum.</li>"
       }]
     },{
+      "id"    : "sandwich",
+      "title" : "sandwich",
+      "scope" : "outside",
+			"symbol": "🥪",
+      "order" : "1",
+      "descriptions" : [{
+        "text" : "Clues outside the grid show the sum of the digits between 1 and 9 in that row or column.",
+        "html" : "<li><b>sandwich</b>: Clues outside the grid show the sum of the digits between 1 and 9 in that row or column.</li>"
+      }]
+    },{
       "id"    : "sudoku",
       "title" : "sudoku",
       "scope" : "main",
@@ -300,8 +330,8 @@ ruleset={
 			"symbol": "ⓧ",
     "order" : "1",
     "descriptions" : [{
-      "text" : "Clues at the edge show the sum of the first 𝘹 digits, where 𝘹 is the first seen digit.",
-      "html" : "<li><b>x-sums</b>: Clues at the edge show the sum of the first x digits, where x is the first seen digit.</li>"
+      "text" : "Clues outside the grid show the sum of the first 𝘹 digits, where 𝘹 is the first seen digit.",
+      "html" : "<li><b>x-sums</b>: Clues outside the grid show the sum of the first x digits, where x is the first seen digit.</li>"
     }]
   }
 ]
