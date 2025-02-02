@@ -270,7 +270,7 @@ ruleset={
 			"symbol": "🥪",
       "order" : "1",
       "descriptions" : [{
-        "text" : "Clues outside the grid show the sum of the digits between 1 and 9 in that row or column.",
+        "text" : "𝘀𝗮𝗻𝗱𝘄𝗶𝗰𝗵: Clues outside the grid show the sum of the digits between 1 and 9 in that row or column.",
         "html" : "<li><b>sandwich</b>: Clues outside the grid show the sum of the digits between 1 and 9 in that row or column.</li>"
       }]
     },{
@@ -330,7 +330,7 @@ ruleset={
 			"symbol": "ⓧ",
     "order" : "1",
     "descriptions" : [{
-      "text" : "Clues outside the grid show the sum of the first 𝘹 digits, where 𝘹 is the first seen digit.",
+      "text" : "Clues outside the grid show what the first 𝘅 digits 𝘀𝘂𝗺 to, where 𝘹 is the first seen digit.",
       "html" : "<li><b>x-sums</b>: Clues outside the grid show the sum of the first x digits, where x is the first seen digit.</li>"
     }]
   }
