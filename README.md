@@ -1,13 +1,9 @@
 # sudoku-rule-writer
-You can download the source and run it on you own pc or use it direcyly online at
-https://martinbaselier.github.io/sudoku-rule-writer/
 
-The rule-writer contains most common rules for variation sudoku. It was created to make the task of writing rules easier for myself. Because of that it mainly contains the rules I use most. I will probably extend this in the future and add more rules. Feel free to modify it and adapt it for your own use. 
+This tool has been created to make the task of adding rules to a sudoku easier. It contains most common rules for variation sudoku. I will slowly extend this. Since I can be quite punctilious about the wording, they might change between versions. It has been tested with firefox and chromium. 
 
-Just add your rules to rules.js and they should appear. It should be pretty much self-explanatory.
+Clues are grouped by type. Within a group, clues are ordered alphabetically. The following groups were used: main , global, outside, lines, other and neighbours
 
-The source-package contains all files you'll need and can be used directly in your browser. It has been tested with firefox and chromium. 
+You can download the source and run it on you own pc or use it direcyly online at https://martinbaselier.github.io/sudoku-rule-writer/
 
-It looks like this: 
-![preview](preview/preview.png?raw=true "Prievew")
-
+Feel free to modify it and adapt it for your own use. Just add your rules to rules.js and they should appear. It should be pretty much self-explanatory.
