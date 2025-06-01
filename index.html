@@ -15,51 +15,49 @@
     <div class="row mx-1 my-4">
       <div class="col-12">
         <div class="row" id="interface">
-          <div class="col-5">
+          <div class="col-6">
             <div class="row">
-                <div class="col d-none" id="main"></div>
-                <div class="col d-none" id="global"></div>
-                <div class="col d-none" id="other"></div>
-                <div class="col d-none" id="outside"></div>
-                <div class="col d-none" id="neighbours"></div>
-                <div class="col d-none" id="lines"></div>
-            </div>
-            <div class="row">
-              <div class="col-6">
+              <div class="col-5">
                 <div class="form-floating mb-3 mt-2">
                   <input type="text" class="form-control" id="image" placeholder="" onchange="update()" title="Put the imagename from German Logic Masters here.">
                   <div style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;" data-lastpass-icon-root=""></div><label for="image">image</label>
                 </div>
               </div>
-              <div class="col-6">
-                <div class="form-floating mb-3">
+              <div class="col-2">
+                <div class="form-floating mb-3 mt-2">
+                  <input type="text" class="form-control" id="digits" placeholder="" onchange="update()" title="Enter the digits you may use.">
+                  <div style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;" data-lastpass-icon-root=""></div><label for="digits">digits</label>
+                </div>
+              </div>
+              <div class="col-5">
+                <div class="form-floating mb-3 mt-2">
                   <input type="text" class="form-control" id="link" placeholder="https://" onchange="update()"  title="Put your sudokupad-link here.">
                   <div style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;" data-lastpass-icon-root=""></div><label for="link">link</label>
                 </div>
               </div>
             </div>
-            <div class="row mt-3">
-              <div class="card border-primary" style="max-width: 100%;">
-                <div class="card-header position-relative">
-                  <button class="source-button btn btn-primary position-absolute top-50 end-0 translate-middle-y" type="button" title="copy to clipboard" tabindex="0" onclick="copyText('sudokupad');"><i class="bi bi-code">copy</i></button>
-                  sudokupad
-                </div>
-                <div class="card-body" id="sudokupad">
-                  <h4 class="card-title" id="symbols"></h4>
-                </div>
-              </div>
+            <div class="row" id="btc">
             </div>
           </div>
-          <div class="col-7">
+          <div class="col-6">
             <div class="card border-primary" style="max-width: 100%;">
-              <div class="card-header">preview</div>
+              <div class="card-header position-relative">
+                <button class="source-button btn btn-primary position-absolute top-50 end-0 translate-middle-y" type="button" title="copy to clipboard" tabindex="0" onclick="copyText('sudokupad');"><i class="bi bi-code">copy</i></button>
+                sudokupad
+              </div>
+              <div class="card-body" id="sudokupad">
+                <h4 class="card-title" id="symbols"></h4>
+              </div>
+            </div>
+            <div class="card border-primary" style="max-width: 100%;">
+              <div class="card-header position-relative">
+                <button class="source-button btn btn-primary position-absolute top-50 end-0 translate-middle-y" type="button"  title="copy to clipboard" tabindex="0" onclick="copyText('glcode');"><i class="bi bi-code">copy</i></button>
+                German Logic Masters
+              </div>
               <div class="card-body" id="preview"></div>
             </div>
             <div class="row">&nbsp;</div>
-            <div class="card border-primary" style="max-width: 100%;">
-              <div class="card-header position-relative">german logic masters
-                <button class="source-button btn btn-primary position-absolute top-50 end-0 translate-middle-y" type="button"  title="copy to clipboard" tabindex="0" onclick="copyText('glcode');"><i class="bi bi-code">copy</i></button>
-              </div>
+            <div class="card border-primary" style="max-width: 100%;" id="codecard">
               <div class="card-body" id="glcode">
                 <pre>
 <span id="header"></span>
