@@ -82,7 +82,7 @@ ruleset={
       "order" : "1",
       "descriptions" : [{
         "text" : "Adjacent digits on an orange 𝗱𝘂𝘁𝗰𝗵 𝘄𝗵𝗶𝘀𝗽𝗲𝗿𝘀 line differ by at least 4.",
-        "html" : "<li>On an <i style=\"background-color:orange;padding:0 0.5ch;margin:0 0.5ch;\">orange</i> <b>dutch whispers line</b> adjacent digits differ by at least 4.</li>"
+        "html" : "<li>On an <i style=\"background-color:orange;border-radius:0.5em;padding:0 0.5ch;margin:0 0.5ch;\">orange</i> <b>dutch whispers line</b> adjacent digits differ by at least 4.</li>"
       }]
     },{
       "id"    : "entropic",
@@ -92,7 +92,7 @@ ruleset={
       "order" : "1",
       "descriptions" : [{
         "text" : "Any set of three sequential cells along a peach 𝗲𝗻𝘁𝗿𝗼𝗽𝗶𝗰 line must contain a 𝘭𝘰𝘸 {1,2,3}, 𝘮𝘪𝘥𝘥𝘭𝘦 {4,5,6}, and 𝘩𝘪𝘨𝘩 digit {7,8,9}.",
-        "html" : "<li>Along a<i style=\"background-color:peachPuff;padding:0 0.5ch;margin:0 0.5ch;\">peach</i><b>entropic line</b> any set of three sequential cells must contain a <i>low</i> {1,2,3}, <i>middle</i> {4,5,6}, and <i>high</i> {7,8,9} digit.</li>"
+        "html" : "<li>Along a<i style=\"background-color:peachPuff;border-radius:0.5em;padding:0 0.5ch;margin:0 0.5ch;\">peach</i><b>entropic line</b> any set of three sequential cells must contain a <i>low</i> {1,2,3}, <i>middle</i> {4,5,6}, and <i>high</i> {7,8,9} digit.</li>"
       }]
     },{
       "id"    : "fog",
@@ -117,7 +117,7 @@ ruleset={
       "order" : "1",
       "descriptions" : [{
         "text" : "Adjacent digits on a green 𝗴𝗲𝗿𝗺𝗮𝗻 𝘄𝗵𝗶𝘀𝗽𝗲𝗿𝘀 line differ by at least 5.",
-        "html" : "<li>On a<i style=\"background-color:lightGreen;padding:0 0.5ch;margin:0 0.5ch;\">green</i><b>german whispers line</b> adjacent digits differ by at least 5.</li>"
+        "html" : "<li>On a<i style=\"background-color:lightGreen;border-radius:0.5em;padding:0 0.5ch;margin:0 0.5ch;\">green</i><b>german whispers line</b> adjacent digits differ by at least 5.</li>"
       }]
     },{
       "id"    : "globent",
@@ -228,7 +228,7 @@ ruleset={
       "order" : "1",
       "descriptions" : [{
         "text" : "3 adjacent digits on a teal 𝗺𝗼𝗱𝘂𝗹𝗮𝗿 line each have a different remainder when divided by 3. 𝘪.𝘦. 𝘰𝘯𝘦 𝘥𝘪𝘨𝘪𝘵 𝘧𝘳𝘰𝘮 {1,4,7}, 𝘰𝘯𝘦 𝘧𝘳𝘰𝘮 {2,5,8} 𝘢𝘯𝘥 𝘰𝘯𝘦 𝘧𝘳𝘰𝘮 {3,6,9}.",
-        "html" : "<li>Along a<i style=\"background-color:#00a0a0;gray;padding:0 0.5ch;margin:0 0.5ch;\">teal</i><b>modular line</b> any set of three adjacent digits has three different remainders when divided by 3. <i>i.e. one digit from</i> {1,4,7}, <i>one from</i> {2,5,8} <i>and one from</i> {3,6,9}</li>"
+        "html" : "<li>Along a<i style=\"background-color:#00a0a0;color:white;border-radius:0.5em;padding:0 0.6ch 0 0.4ch;margin:0 0.5ch;\">teal</i><b>modular line</b> any set of three adjacent digits has three different remainders when divided by 3. <i>i.e. one digit from</i> {1,4,7}, <i>one from</i> {2,5,8} <i>and one from</i> {3,6,9}</li>"
       }]
     },{
       "id"    : "nabner",
@@ -238,7 +238,7 @@ ruleset={
       "order" : "1",
       "descriptions" : [{
         "text" : "A golden 𝗻𝗮𝗯𝗻𝗲𝗿 line does not contain consecutive or repeated digits.",
-        "html" : "<li>A <i style=\"background-color:gold;padding:0 0.5ch;margin:0 0.5ch;\">golden</i> <b>nabner line</b> does not contain consecutive or repeated digits.</li>"
+        "html" : "<li>A <i style=\"background-color:gold;border-radius:0.5em;padding:0 0.5ch;margin:0 0.5ch;\">golden</i> <b>nabner line</b> does not contain consecutive or repeated digits.</li>"
       }]
     },{
       "id"    : "parity",
@@ -248,7 +248,7 @@ ruleset={
       "order" : "1",
       "descriptions" : [{
         "text" : "Digits on a red 𝗽𝗮𝗿𝗶𝘁𝘆 line alternate between odd and even.",
-        "html" : "<li>Digits on a <i style=\"background-color:crimson;color:white;padding:0 0.7ch 0 0.5ch;margin:0 0.5ch;\">red</i> <b>parity line</b> alternate between odd and even.</li>"
+        "html" : "<li>Digits on a <i style=\"background-color:crimson;color:white;border-radius:0.5em;padding:0 0.7ch 0 0.5ch;margin:0 0.5ch;\">red</i> <b>parity line</b> alternate between odd and even.</li>"
       }]
     },{
       "id"    : "palindrome",
@@ -288,7 +288,7 @@ ruleset={
       "order" : "1",
       "descriptions" : [{
         "text" : "Digits on a purple 𝗿𝗲𝗻𝗯𝗮𝗻 line form a set of distinct consecutive digits.",
-        "html" : "<li>Digits on a<i style=\"background-color:violet;padding:0 0.5ch;margin:0 0.5ch;\">purple</i><b>renban line</b> form a set of distinct consecutive digits.</li>"
+        "html" : "<li>Digits on a<i style=\"background-color:violet;border-radius:0.5em;padding:0 0.5ch;margin:0 0.5ch;\">purple</i><b>renban line</b> form a set of distinct consecutive digits.</li>"
       }]
     },{
       "id"    : "regionsum",
@@ -298,7 +298,7 @@ ruleset={
       "order" : "1",
       "descriptions" : [{
         "text" : "Box borders divide blue 𝗿𝗲𝗴𝗶𝗼𝗻 𝘀𝘂𝗺 lines into segments with the same sum.",
-        "html" : "<li>Box borders divide <i style=\"background-color:lightblue;padding:0 0.5ch;margin:0 0.5ch;\">blue</i> <b>region sum lines</b> into segments with the same sum.</li>"
+        "html" : "<li>Box borders divide <i style=\"background-color:lightblue;border-radius:0.5em;padding:0 0.5ch;margin:0 0.5ch;\">blue</i> <b>region sum lines</b> into segments with the same sum.</li>"
       }]
     },{
       "id"    : "sandwich",
@@ -394,7 +394,7 @@ ruleset={
       "order" : "1",
       "descriptions" : [{
         "text" : "Divide the digit into red, green and blue digits. There are 3 digits in each color.  Three sequential cells along a yellow 𝘁𝗵𝗿𝗲𝗲𝗹𝗶𝗻𝗲 contain a red, a green and a blue digit.",
-        "html" : "<li>Divide the digit into red, green and blue digits. There are 3 digits in each color.  Three sequential cells along a<i style=\"background-color:yellow;padding:0 0.5ch;margin:0 0.5ch;\">yellow</i><b>threeline</b> contain a red, a green and a blue digit.</li>"
+        "html" : "<li>Divide the digit into red, green and blue digits. There are 3 digits in each color.  Three sequential cells along a<i style=\"background-color:yellow;border-radius:0.5em;padding:0 0.5ch;margin:0 0.5ch;\">yellow</i><b>threeline</b> contain a red, a green and a blue digit.</li>"
       }]
     },{
       "id"    : "v",
@@ -459,7 +459,7 @@ ruleset={
       "order" : "1",
       "descriptions" : [{
         "text" : "Digits an equal distance from the center of a lavender 𝘇𝗶𝗽𝗽𝗲𝗿 line sum to the same number. The centre has been marked with a dot.",
-        "html" : "<li>Digits an equal distance from the center of a<i style=\"background-color:lavender;padding:0 0.5ch;margin:0 0.5ch;\">lavender</i><b>zipper line</b>  sum to the same number. The centre has been marked with a dot.</li>"
+        "html" : "<li>Digits an equal distance from the center of a<i style=\"background-color:lavender;border-radius:0.5em;padding:0 0.5ch;margin:0 0.5ch;\">lavender</i><b>zipper line</b>  sum to the same number. The centre has been marked with a dot.</li>"
     }]
   }
 ]
