@@ -9,7 +9,7 @@ header[1]="\"><img:";
 header[2]=" style=\"width:60%;\"/></a>";
 footer[0]="</ul>\n<br/>\n<a href=\"";
 footer[1]="\" target=\"_blank\" style=\"\n\
-  font-family: 'Brush Script MT', cursive; \n\
+  font-family: Brush Script MT, cursive; \n\
   font-style: oblique; \n\
   text-decoration:none; \n\
   background-color: LightSteelBlue; \n\

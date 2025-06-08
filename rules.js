@@ -290,7 +290,7 @@ ruleset={
         "html" : "<li>Digits along a grey <b>palindrome line</b> read the same forwards as backwards.</li>"
       }]
     },{
-      "id"    : "power dot",
+      "id"    : "powerdot",
       "title" : "power dot",
       "scope" : "neighbours",
 			"symbol": "🟣",
