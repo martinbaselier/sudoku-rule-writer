@@ -92,7 +92,7 @@ ruleset={
       "order" : "1",
       "descriptions" : [{
         "text" : "Digits do not repeat on the same position within a box.",
-        "html" : "<li>Digits do not repeat on the same position within a box.</li>"
+        "html" : "<li><b>disjoint groups</b>: Digits do not repeat on the same position within a box.</li>"
       }]
     },{
       "id"    : "entropic",
@@ -228,7 +228,7 @@ ruleset={
       "order" : "1",
       "descriptions" : [{
         "text" : "𝗹𝗶𝘁𝘁𝗹𝗲 𝗸𝗶𝗹𝗹𝗲𝗿: Clues outside the grid show the sum of the digits along the indicated diagonal.",
-        "html" : "<li><b>little killer</b>:Clues outside the grid show the sum of the digits along the indicated diagonal.</li>"
+        "html" : "<li><b>little killer</b>: Clues outside the grid show the sum of the digits along the indicated diagonal.</li>"
       }]
     },{
       "id"    : "oddeven",
