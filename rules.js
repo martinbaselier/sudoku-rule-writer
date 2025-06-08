@@ -85,6 +85,16 @@ ruleset={
         "html" : "<li>On an <i style=\"background-color:orange;border-radius:0.5em;padding:0 0.5ch;margin:0 0.5ch;\">orange</i> <b>dutch whispers line</b> adjacent digits differ by at least 4.</li>"
       }]
     },{
+      "id"    : "disjoint",
+      "title" : "disjoint groups",
+      "scope" : "lines",
+			"symbol": "⛓️‍💥",
+      "order" : "1",
+      "descriptions" : [{
+        "text" : "Digits do not repeat on the same position within a box.",
+        "html" : "<li>Digits do not repeat on the same position within a box.</li>"
+      }]
+    },{
       "id"    : "entropic",
       "title" : "entropic",
       "scope" : "lines",
@@ -219,6 +229,25 @@ ruleset={
       "descriptions" : [{
         "text" : "𝗹𝗶𝘁𝘁𝗹𝗲 𝗸𝗶𝗹𝗹𝗲𝗿: Clues outside the grid show the sum of the digits along the indicated diagonal.",
         "html" : "<li><b>little killer</b>:Clues outside the grid show the sum of the digits along the indicated diagonal.</li>"
+      }]
+    },{
+      "id"    : "oddeven",
+      "title" : "odd/even",
+      "scope" : "other",
+      "symbol": "⚫■",
+      "order" : "1",
+      "descriptions" : [{
+        "title" : "both",
+        "text" : "Digits on a solid gray 𝗰𝗶𝗿𝗰𝗹𝗲 are odd. Digits on a solid gray 𝘀𝗾𝘂𝗮𝗿𝗲 are even.",
+        "html" : "<li>Digits on a <b>solid gray circle</b> are odd. Digits on a <b>solid gray square</b> are even.</li>"
+      },{
+        "title" : "even",
+        "text" : "Digits on a solid gray 𝘀𝗾𝘂𝗮𝗿𝗲 are even.",
+        "html" : "<li>Digits on a <b>solid gray square</b> are even.</li>"
+      },{
+        "title" : "odd",
+        "text" : "Digits on a solid gray 𝗰𝗶𝗿𝗰𝗹𝗲 are odd.",
+        "html" : "<li>Digits on a <b>solid gray circle</b> are odd.</li>"
       }]
     },{
       "id"    : "modular",
@@ -367,9 +396,9 @@ ruleset={
         "html2": "once in every row, column and region. The regions need to be determined by the solver. Each region consists of 9 cells. All cells are orthogonally adjacent.</li>"
       },{
         "title": "somedoku",
-        "text" : "Place the digits <span class=\"digits\"></span> in the grid. Row N contains N different digits. Column N contains N different digits.",
+        "text" : "Place the digits <span class=\"digits\"></span> in the grid. Row N contains N different digits. Column N contains N different digits. Rows are numbered from top to bottom and columns from left to right.",
         "html" : "<li><b>Somedoku</b>: Place the digits",
-        "html2": "in the grid. Row N contains N different digits. Column N contains N different digits.</li>"
+        "html2": "in the grid. Row N contains N different digits. Column N contains N different digits. Rows are numbered from top to bottom and columns from left to right. </li>"
       }]
     },{
       "id"    : "thermometer",
