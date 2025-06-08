@@ -87,7 +87,7 @@ ruleset={
     },{
       "id"    : "disjoint",
       "title" : "disjoint groups",
-      "scope" : "lines",
+      "scope" : "global",
 			"symbol": "⛓️‍💥",
       "order" : "1",
       "descriptions" : [{
