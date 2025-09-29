@@ -16,8 +16,8 @@ ruleset={
 			"symbol": "♔",
       "order" : "1",
       "descriptions" : [{
-        "text" : "Digits separated by a chess 𝗸𝗶𝗻𝗴's move are different.",
-        "html" : "<li>Digits separated by a chess <b>king</b>'s move are different.</li>"
+        "text" : "Cells separated by a chess 𝗸𝗶𝗻𝗴's move contain different digits.",
+        "html" : "<li>Cells separated by a chess <b>king</b>'s move contain different digits.</li>"
       }]
     },{
       "id"    : "anti-knight",
@@ -26,8 +26,8 @@ ruleset={
 			"symbol": "♞",
       "order" : "1",
       "descriptions" : [{
-        "text" : "Digits separated by a chess 𝗸𝗻𝗶𝗴𝗵𝘁's move are different.",
-        "html" : "<li>Digits separated by a chess <b>knight</b>'s move are different.</li>"
+        "text" : "Cells separated by a chess 𝗸𝗻𝗶𝗴𝗵𝘁's move contain different digits.",
+        "html" : "<li>Cells separated by a chess <b>knight</b>'s move contain different digits.</li>"
       }]
     },{
       "id"    : "arrows",
@@ -43,6 +43,16 @@ ruleset={
         "title": "pill",
         "text" : "Digits on an 𝗮𝗿𝗿𝗼𝘄 sum to the number in the attached circle or pill. Pills are read in normal reading order. 𝘪.𝘦. 𝘧𝘳𝘰𝘮 𝘭𝘦𝘧𝘵 𝘵𝘰 𝘳𝘪𝘨𝘩𝘵 𝘢𝘯𝘥 𝘵𝘰𝘱 𝘵𝘰 𝘣𝘰𝘵𝘵𝘰𝘮.",
         "html" : "<li>Digits on an <b>arrow</b> sum to the number in the attached circle or Pill. Pills are read in normal reading order.<i>i.e. from left to right and top to bottom.</i></li>"
+      }]
+    },{
+      "id"    : "between",
+      "title" : "between-line",
+      "scope" : "lines",
+      "symbol": "?",
+      "order" : "1",
+      "descriptions" : [{
+        "text" : "The values of the digits on a blue 𝗯𝗲𝘁𝘄𝗲𝗲𝗻 line are between the values in the circles at the ends of it.",
+        "html" : "<li>On an <i style=\"background-color:orange;border-radius:0.5em;padding:0 0.5ch;margin:0 0.5ch;\">orange</i> <b>dutch whispers line</b> adjacent digits differ by at least 4.</li>"
       }]
     },{
       "id"    : "circles",
@@ -326,8 +336,8 @@ ruleset={
 			"symbol": "🔵",
       "order" : "1",
       "descriptions" : [{
-        "text" : "Box borders divide blue 𝗿𝗲𝗴𝗶𝗼𝗻 𝘀𝘂𝗺 lines into segments with the same sum.",
-        "html" : "<li>Box borders divide <i style=\"background-color:lightblue;border-radius:0.5em;padding:0 0.5ch;margin:0 0.5ch;\">blue</i> <b>region sum lines</b> into segments with the same sum.</li>"
+        "text" : "Box borders divide blue 𝗿𝗲𝗴𝗶𝗼𝗻 𝘀𝘂𝗺 lines into segments with equal sums.",
+        "html" : "<li>Box borders divide <i style=\"background-color:lightblue;border-radius:0.5em;padding:0 0.5ch;margin:0 0.5ch;\">blue</i> <b>region sum lines</b> into segments with equal sums.</li>"
       }]
     },{
       "id"    : "sandwich",
@@ -385,7 +395,7 @@ ruleset={
         "html" : "<li><b>Quatro quadri</b>: Place the digits",
         "html2": "once in every box. Digits do not repeat horizontally or vertically.</li>"
       },{
-        "title": "unboxed",
+        "title": "deconstruction",
         "text" : "There exist 9 non-overlapping 3x3 square regions which must be located. Each region contains the digits <span class=\"digits\"></span> once each, such that no digit repeats in any row or column. Cells outside these regions do not contain digits and have a value of 0.",
         "html" : "<li>There exist 9 non-overlapping 3x3 square regions which must be located. Each region contains the digits",
         "html2": "once each, such that no digit repeats in any row or column. Cells outside these regions do not contain digits and have a value of 0.</li>"
@@ -438,7 +448,7 @@ ruleset={
       },{
         "title": "all V",
         "text" : "Digits separated by a 𝗩 sum to 5. All V's are given.",
-        "html" : "<li>Digits separated by an <b>X</b> sum to 10.</li>"
+        "html" : "<li>Digits separated by an <b>V</b> sum to 10.</li>"
       }]
     },{
       "id"    : "x",
@@ -484,11 +494,11 @@ ruleset={
       "id"    : "zipper",
       "title" : "zipper",
       "scope" : "lines",
-			"symbol": "🤐",
+			"symbol": "🟣",
       "order" : "1",
       "descriptions" : [{
-        "text" : "Digits an equal distance from the center of a lavender 𝘇𝗶𝗽𝗽𝗲𝗿 line sum to the same number. The centre has been marked with a dot.",
-        "html" : "<li>Digits an equal distance from the center of a<i style=\"background-color:lavender;border-radius:0.5em;padding:0 0.5ch;margin:0 0.5ch;\">lavender</i><b>zipper line</b>  sum to the same number. The centre has been marked with a dot.</li>"
+        "text" : "Equidistant digits from the center of a lavender 𝘇𝗶𝗽𝗽𝗲𝗿 line sum to the same number.",
+        "html" : "<li>Equidistant digits from the center of a<i style=\"background-color:lavender;border-radius:0.5em;padding:0 0.5ch;margin:0 0.5ch;\">lavender</i><b>zipper line</b>  sum to the same number.</li>"
     }]
   }
 ]
